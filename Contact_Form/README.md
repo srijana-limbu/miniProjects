@@ -3,4 +3,4 @@
 #Utilize SMTPjs API to send form data via email.
 
 #Output
-![contact Form](https://github.com/srijanalimbu91/contactForm_toEmail_SMTPjs/assets/91357218/43c5139b-9119-4a72-aa2e-656b4d72bdc2)
+![contact Form](https://github.com/srijanalimbu91/miniProjects/assets/91357218/720da6ec-61ba-4db1-b4ea-d6af9d98e145)
