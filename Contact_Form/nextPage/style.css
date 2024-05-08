@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+  
+
+* {
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    
+}
+body {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #bb9457;
+}
+.wrapper {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    height: 650px;
+    width: 500px;
+}
+input[type = text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type = button] {
+    background-color: #04aa60;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type = button]:hover {
+    background-color: #45a044;
+}
+#message {
+    height:200px;
+}

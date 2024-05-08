@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Hi😄🤗</h1>
+    <div class="wrapper">
+        <form action="">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter Your Name...">
+
+            <label for="name">Email</label>
+            <input type="text" id="email" placeholder="Enter Your Email...">
+
+            <label for="name">Contact Number</label>
+            <input type="text" id="contact" placeholder="Enter Your Contact Number...">
+
+            <label for="name">Subject</label>
+            <input type="text" id="subject" placeholder="Enter Your Subject...">
+
+            <label for="message"></label>
+            <textarea name="message" id="message" placeholder="Enter Your Message..."></textarea>
+            <input type="button" value="Send Message" onclick="send()">
+
+        </form>
+    </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js"> </script>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script>
+
+        function send() {
+            //console.log("hi");
+            var nme = document.getElementById("name").value;
+            var eml = document.getElementById("email").value;
+            var cont = document.getElementById("contact").value;
+            var sub = document.getElementById("subject").value;
+            var msg = document.getElementById("message").value;
+
+            var body = "Name: " + nme + "<br> Email:" + eml + "<br> Contact Number:" + cont + "<br> Message: " + msg;
+
+            console.log(body);
+
+            Email.send({
+
+                
+                SecureToken : "53a62d02-3cd6-4a4c-866c-ee2fbc4931d5",
+                To: 'limbu.srijana900@gmail.com',
+                From: "limbu.srijana900@gmail.com",
+                Subject: sub,
+                Body: body
+            }).then(
+                message => {
+                    if(message == 'OK') {
+                        swal("Successful!", "Your Message Successfully Received", "success");
+                    }
+                    else {
+                        swal("Something Wrong", "Your Message is not Received", "error");
+
+                    }
+                }
+            );
+
+        }
+
+    </script>
+</body>
+
+</html>

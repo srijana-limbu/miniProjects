@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    
+}
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fefee3;
+}
+.wrapper h2 {
+    font-size: 30px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form .input-box {
+    padding-top: 1rem;
+}
+.wrapper form {
+    border-radius: 5px; 
+    padding: 20px;
+    height: 650px;
+    width: 500px;
+    margin-bottom: 1rem;
+    background: #dad7cd;
+}
+
+
+
+input[type = text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.btn {
+    height: 50px;
+    width: 160px;
+    background-color: #38b000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #008000;
+}
+#message {
+    height:160px;
+    margin-bottom: 1rem;
+}
+
+.field .error-text {   
+    font-size: 14.5px;
+    color: red;
+    margin: -5px 0 10px;
+    display: none;
+}
+.form .textarea-field .error-text {
+    margin-top: -10px;
+}
+
+.field.error .item {
+    border-color: red;
+}
+.field.error .error-text {
+    display: block;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;  
+}

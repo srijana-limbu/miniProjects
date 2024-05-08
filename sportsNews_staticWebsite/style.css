@@ -1,0 +1,247 @@
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  background-color: #ebeef3;
+}
+.logo {
+  font-family: "Freehand", cursive;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+.nav-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.nav {
+    width: 100%;
+    background-color: #ffffff;
+    height: 8rem;
+}
+.logo {
+    font-size: 2.2rem;
+    color: #000000;
+}
+.nav-list {
+    display: flex;
+}
+.nav-item {
+    margin: 0rem 0.5rem;
+    font-size: 1.4rem;
+    color: #000000;
+}
+
+.nav-link {
+    padding: 0 05rem;
+    font-size: 1.4rem;
+    color: #000000;
+}
+.btn {
+    padding: 1rem 2rem;
+}
+.nav-btn {
+    background-color: #b8c2ce;
+    color: #000000;
+    border-radius: 0.5rem;
+}
+
+/* header */
+.header {
+    width: 100%;
+    height: 108vh;
+    background-image: url(./images/header-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+} 
+.header-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 30rem;
+}
+.header-left {
+    align-self: center;
+}
+.header-main-title {
+    font-size: 7.2rem;
+    font-weight: 900;
+    line-height: 6rem;
+    margin-bottom: 2rem;
+}
+.header-left-p {
+    margin-bottom: 4rem;
+    
+}
+.header-btn {
+    background-color: #b8c2ce;
+    color: #000000;
+    font-weight: 500;
+    padding: 1.3rem 2rem;
+    
+}
+.header-right {
+    justify-self: right;
+    margin-top: 15rem;
+}
+.header-news-card {
+    width: 25rem;
+    height: 20rem; 
+    position: relative;
+    margin-top: 1.5rem;
+
+}
+.header-news-img {
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
+.header-news-text {
+    position: absolute;
+   left: 1.5rem;
+   bottom: 1.5rem; 
+}
+
+.header-news-text > p {
+    font-size: 1.3rem;
+}
+.header-news-title {
+    font-size: 1.3rem;
+}
+
+/* category-section */
+.section {
+    margin-top: 10rem;
+}
+.section-header {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+}
+.category-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+}
+.category-title {
+    width: 100%;
+    text-align: center;
+    background-color: #b8c2ce;
+    padding: 3rem 0rem;
+    border-radius: 1rem;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.category-img {
+    width: 100%;
+}
+.one {
+    margin-bottom: 1rem;
+}
+.two {
+    margin-top: 1rem;
+}
+/* Trending News-section */
+.trending-wrapper {
+    background-color: #b8c2ce;
+    padding: 3rem;
+    border-radius: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+}
+.trending-news-card-s {
+    display: flex;
+    margin-top: 1.5rem;
+}
+.trending-news-s-img {
+    width: 100%;
+    margin-right: 1rem;
+}
+.trending-news-s-date {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+
+}
+.trending-news-s-title {
+    font-size: 1.7rem;
+    margin: 1rem 0rem;
+}
+/*    */
+.news-lg {
+   width: 100%;
+   position: relative; 
+}
+.news-lg-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;  
+    top: 0;
+    left: 0;
+}
+.news-lg-tag {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    padding: 0.7rem 1.5rem;
+    border: 1px solid #ffffff;
+    border-radius: 1rem;
+    color: #ffffff;
+}
+.news-lg-content {
+    position: absolute; 
+    left: 2rem;
+    bottom: 1.5rem;
+    color: #ffffff;
+}
+/* banner Section   */
+.banner-wrapper {
+    width: 100%;
+    position: relative;
+}
+.banner-bg {
+    width: 100%;
+    height: 50rem;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+.banner-tag {
+    position: absolute;
+    top: 1.5rem;
+    left: 3rem;
+    padding: 0.7rem 1.5rem;
+    border: 1px solid #ffffff;
+    border-radius: 1rem;
+    color: #ffffff;
+}
+.banner-content {
+    position: absolute; 
+    left: 4rem;
+    top: 37rem;
+    bottom: 0rem;
+    color: #ffffff; 
+}
