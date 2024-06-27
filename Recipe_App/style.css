@@ -71,7 +71,6 @@ form ion-icon {
 .item {
     width: 100%;
     border-radius: 8px;
-   /* background-color: rgb(37, 37, 37);*/
    background-color: #dda15e;
     padding: 15px;
     overflow: hidden;
@@ -89,7 +88,6 @@ form ion-icon {
 }
 
 .item .title {
-    /* color: whitesmoke; */
     margin: 20px 10px 0 0;
     font-size: 1.8rem;
     font-weight: 400;
@@ -99,7 +97,6 @@ form ion-icon {
     text-align: center;
     width: 130px;
     padding: 10px 0;
-   /*  background-color: #4e4e4e;  */
    background-color: #606c38;
     color: white;
     border-radius: 5px;
@@ -109,7 +106,6 @@ form ion-icon {
     align-self: flex-start;
 }
 .item-data {
-    /* color: whitesmoke; */
     display: block;
     margin: 10px;
     font-size: 1.4rem;
